@@ -1,0 +1,353 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:TIPBRD-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "25 apr 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TIP127 Q1
+U 1 1 5278EABA
+P 1650 1550
+F 0 "Q1" H 1600 1400 40  0000 R CNN
+F 1 "TIP127" H 1650 1700 40  0000 R CNN
+F 2 "TO220" H 1530 1655 29  0001 C CNN
+F 3 "~" H 1650 1550 60  0000 C CNN
+	1    1650 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TIP127 Q2
+U 1 1 5278EAC7
+P 2250 1550
+F 0 "Q2" H 2200 1400 40  0000 R CNN
+F 1 "TIP127" H 2250 1700 40  0000 R CNN
+F 2 "TO220" H 2130 1655 29  0001 C CNN
+F 3 "~" H 2250 1550 60  0000 C CNN
+	1    2250 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TIP127 Q3
+U 1 1 5278EAD2
+P 2850 1550
+F 0 "Q3" H 2800 1400 40  0000 R CNN
+F 1 "TIP127" H 2850 1700 40  0000 R CNN
+F 2 "TO220" H 2730 1655 29  0001 C CNN
+F 3 "~" H 2850 1550 60  0000 C CNN
+	1    2850 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L TIP127 Q4
+U 1 1 5278EAD8
+P 3450 1550
+F 0 "Q4" H 3400 1400 40  0000 R CNN
+F 1 "TIP127" H 3450 1700 40  0000 R CNN
+F 2 "TO220" H 3330 1655 29  0001 C CNN
+F 3 "~" H 3450 1550 60  0000 C CNN
+	1    3450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5278EC11
+P 3200 2350
+F 0 "R2" V 3280 2350 40  0000 C CNN
+F 1 "2.2K" V 3207 2351 40  0000 C CNN
+F 2 "~" V 3130 2350 30  0000 C CNN
+F 3 "~" H 3200 2350 30  0000 C CNN
+	1    3200 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5278EC1E
+P 3200 2450
+F 0 "R3" V 3280 2450 40  0000 C CNN
+F 1 "2.2K" V 3207 2451 40  0000 C CNN
+F 2 "~" V 3130 2450 30  0000 C CNN
+F 3 "~" H 3200 2450 30  0000 C CNN
+	1    3200 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 5278EC24
+P 3200 2550
+F 0 "R4" V 3280 2550 40  0000 C CNN
+F 1 "2.2K" V 3207 2551 40  0000 C CNN
+F 2 "~" V 3130 2550 30  0000 C CNN
+F 3 "~" H 3200 2550 30  0000 C CNN
+	1    3200 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R5
+U 1 1 5278EC2D
+P 3200 2650
+F 0 "R5" V 3280 2650 40  0000 C CNN
+F 1 "2.2K" V 3207 2651 40  0000 C CNN
+F 2 "~" V 3130 2650 30  0000 C CNN
+F 3 "~" H 3200 2650 30  0000 C CNN
+	1    3200 2650
+	0    -1   -1   0   
+$EndComp
+Text Label 3600 2350 0    20   ~ 0
+ULN1
+Text Label 3600 2550 0    20   ~ 0
+ULN3
+Text Label 3600 2750 0    20   ~ 0
+ULN5
+Text Label 3600 2950 0    20   ~ 0
+ULN7
+Text Label 1300 1550 0    20   ~ 0
+ULN1
+Text Label 1950 1550 0    20   ~ 0
+ULN2
+Text Label 2550 1550 0    20   ~ 0
+ULN3
+Text Label 3150 1550 0    20   ~ 0
+ULN3
+Text Label 3150 1950 0    20   ~ 0
+VCC_24V
+Text Label 1500 3250 0    20   ~ 0
+GND
+$Comp
+L CONN_2 P2
+U 1 1 5278FFFB
+P 3250 3250
+F 0 "P2" V 3200 3250 40  0000 C CNN
+F 1 "CONN_2" V 3300 3250 40  0000 C CNN
+F 2 "~" H 3250 3250 60  0000 C CNN
+F 3 "~" H 3250 3250 60  0000 C CNN
+	1    3250 3250
+	1    0    0    -1  
+$EndComp
+Text Label 2800 3350 0    20   ~ 0
+VCC_24V
+Text Label 2150 1200 0    20   ~ 0
+GND
+$Comp
+L ULN2803A U?
+U 1 1 553B8DF9
+P 2150 2750
+F 0 "U?" H 2150 2850 70  0000 C CNN
+F 1 "ULN2803A" H 2150 2650 70  0000 C CNN
+F 2 "~" H 2150 2750 60  0000 C CNN
+F 3 "~" H 2150 2750 60  0000 C CNN
+	1    2150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 553B8E2E
+P 3200 2750
+F 0 "R?" V 3280 2750 40  0000 C CNN
+F 1 "2.2K" V 3207 2751 40  0000 C CNN
+F 2 "~" V 3130 2750 30  0000 C CNN
+F 3 "~" H 3200 2750 30  0000 C CNN
+	1    3200 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 553B8E34
+P 3200 2850
+F 0 "R?" V 3280 2850 40  0000 C CNN
+F 1 "2.2K" V 3207 2851 40  0000 C CNN
+F 2 "~" V 3130 2850 30  0000 C CNN
+F 3 "~" H 3200 2850 30  0000 C CNN
+	1    3200 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 553B8E3A
+P 3200 2950
+F 0 "R?" V 3280 2950 40  0000 C CNN
+F 1 "2.2K" V 3207 2951 40  0000 C CNN
+F 2 "~" V 3130 2950 30  0000 C CNN
+F 3 "~" H 3200 2950 30  0000 C CNN
+	1    3200 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 553B8E40
+P 3200 3050
+F 0 "R?" V 3280 3050 40  0000 C CNN
+F 1 "2.2K" V 3207 3051 40  0000 C CNN
+F 2 "~" V 3130 3050 30  0000 C CNN
+F 3 "~" H 3200 3050 30  0000 C CNN
+	1    3200 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 1750 1750 1950
+Wire Wire Line
+	1750 1950 3550 1950
+Wire Wire Line
+	2350 1950 2350 1750
+Wire Wire Line
+	2950 1950 2950 1750
+Connection ~ 2350 1950
+Connection ~ 2950 1950
+Wire Wire Line
+	1950 1550 2050 1550
+Wire Wire Line
+	2550 1550 2650 1550
+Wire Wire Line
+	3550 1950 3550 1750
+Wire Wire Line
+	3150 1550 3250 1550
+Wire Wire Line
+	1300 1550 1450 1550
+Wire Wire Line
+	1200 2350 1500 2350
+Wire Wire Line
+	1200 2450 1500 2450
+Wire Wire Line
+	1200 2550 1500 2550
+Wire Wire Line
+	1200 2650 1500 2650
+Wire Wire Line
+	1500 3250 1800 3250
+Wire Wire Line
+	2950 1350 2950 1300
+Wire Wire Line
+	2350 1350 2350 1300
+Wire Wire Line
+	1750 1350 1750 1250
+Wire Wire Line
+	2800 3150 2900 3150
+Wire Wire Line
+	2900 3350 2750 3350
+Wire Wire Line
+	2800 3050 2950 3050
+Wire Wire Line
+	2800 2950 2950 2950
+Wire Wire Line
+	2800 2850 2950 2850
+Wire Wire Line
+	2800 2750 2950 2750
+Wire Wire Line
+	2800 2650 2950 2650
+Wire Wire Line
+	2800 2550 2950 2550
+Wire Wire Line
+	2800 2450 2950 2450
+Wire Wire Line
+	2800 2350 2950 2350
+Wire Wire Line
+	3450 2350 3600 2350
+Wire Wire Line
+	3450 2450 3600 2450
+Wire Wire Line
+	3450 2550 3600 2550
+Wire Wire Line
+	3450 2650 3600 2650
+Wire Wire Line
+	3450 2750 3600 2750
+Wire Wire Line
+	3450 2850 3600 2850
+Wire Wire Line
+	3450 2950 3600 2950
+Wire Wire Line
+	3450 3050 3600 3050
+Text Label 3600 2450 0    20   ~ 0
+ULN2
+Text Label 3600 2650 0    20   ~ 0
+ULN4
+Text Label 3600 2850 0    20   ~ 0
+ULN6
+Text Label 3600 3050 0    20   ~ 0
+ULN8
+$Comp
+L CONN_8 P?
+U 1 1 553B9129
+P 850 2700
+F 0 "P?" V 800 2700 60  0000 C CNN
+F 1 "CONN_8" V 900 2700 60  0000 C CNN
+F 2 "~" H 850 2700 60  0000 C CNN
+F 3 "~" H 850 2700 60  0000 C CNN
+	1    850  2700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1200 2750 1500 2750
+Wire Wire Line
+	1200 2850 1500 2850
+Wire Wire Line
+	1200 2950 1500 2950
+Wire Wire Line
+	1200 3050 1500 3050
+$Comp
+L CONN_8 P?
+U 1 1 553B9200
+P 2650 800
+F 0 "P?" V 2600 800 60  0000 C CNN
+F 1 "CONN_8" V 2700 800 60  0000 C CNN
+F 2 "~" H 2650 800 60  0000 C CNN
+F 3 "~" H 2650 800 60  0000 C CNN
+	1    2650 800 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1750 1250 2300 1250
+Wire Wire Line
+	2300 1250 2300 1150
+Wire Wire Line
+	2350 1300 2400 1300
+Wire Wire Line
+	2400 1300 2400 1150
+Wire Wire Line
+	2950 1300 2500 1300
+Wire Wire Line
+	2500 1300 2500 1150
+Wire Wire Line
+	2600 1150 2600 1250
+Wire Wire Line
+	2600 1250 3550 1250
+Wire Wire Line
+	3550 1250 3550 1350
+$EndSCHEMATC
